@@ -1,0 +1,38 @@
+body{
+
+	margin:0;
+	padding: 0;
+
+	font-family: "Times New Roman" ;
+}
+
+.login{
+	width: 320px;
+	height: 420px;
+	color: #A8A8A8 ;
+	top:50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 10px;
+	text-align: left;
+	font-size: 26px;
+
+
+}
+
+.login p{
+	margin: 10;
+	padding: 5;
+	font-weight: bold;
+}
+
+.login input[type="submit"]:hover{
+	cursor:pointer;
+	background: #4169E1;
+	color:#000;
+}
